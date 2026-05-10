@@ -1,7 +1,7 @@
 <?php function url()
 {
   // return "https://devopspro.agency/demo/dsu/";
-  return "https://shafeelam.unaux.com/";
+  return "https://shafeelam.netlify.app/";
   return sprintf(
     "%s://%s%s",
     isset($_SERVER['HTTPS']) && $_SERVER['HTTPS'] != 'off' ? 'https' : 'http',
